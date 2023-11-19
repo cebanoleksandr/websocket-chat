@@ -5,7 +5,7 @@ import { App } from './App';
 import { Chat } from './pages/Chat/Chat';
 import { Home } from './pages/Home/Home';
 
-const socket = io('http://localhost:5000');
+const socket = io('https://socket-server-gm1f.vercel.app/');
 
 export const Root: React.FC = () => (
   <HashRouter>

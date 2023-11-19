@@ -1,0 +1,21 @@
+.sidebar {
+  height: 100%;
+  flex: 0.2;
+  padding: 24px;
+  border-right: 1px solid var(--light-color);
+}
+
+.title {
+  margin: 30px 0 20px 0;
+  font-size: 25px;
+}
+
+.sidebar__list {
+  font-size: 14px;
+  list-style: none;
+}
+
+.sidebar__list > li {
+  margin-bottom: 20px;
+  cursor: pointer;
+}

@@ -1,10 +1,10 @@
-import React, { useCallback, useEffect, useState } from 'react'
-import { Socket } from 'socket.io-client'
-import { Body } from '../../components/Body/Body'
-import { MessageBlock } from '../../components/MessageBlock/MessageBlock'
-import { SideBar } from '../../components/SideBar/Sidebar'
-import { Message } from '../../utils/types'
-import './Chat.css'
+import React, { useCallback, useEffect, useState } from 'react';
+import { Socket } from 'socket.io-client';
+import { Body } from '../../components/Body/Body';
+import { MessageBlock } from '../../components/MessageBlock/MessageBlock';
+import { SideBar } from '../../components/SideBar/Sidebar';
+import { Message } from '../../utils/types';
+import './Chat.css';
 
 type Props = {
   socket: Socket
